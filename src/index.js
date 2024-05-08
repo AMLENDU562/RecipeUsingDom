@@ -13,7 +13,7 @@ function successful()
     const textnode = document.createTextNode(text);
     const node = document.createElement("h1");
     node.appendChild(textnode);
-    s.prepe(node);
+    s.prepend(node);
     
     s.id="successful";
     var n=document.createElement("div");
